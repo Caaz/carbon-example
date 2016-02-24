@@ -1,7 +1,6 @@
 import "dart:io";
 import 'dart:convert';
-// import "package:carbon/carbon.dart";
-import "../Dart/lib/Carbon/lib/carbon.dart";
+import "package:carbon/carbon.dart";
 import 'jade.views.dart' deferred as jadeViews;
 main() async {
   Map config = JSON.decode(new File('config.json').readAsStringSync());
