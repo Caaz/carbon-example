@@ -1,0 +1,18 @@
+$navSize:50px;
+nav {
+  top:0px;
+  left:0px;
+  position:fixed;
+  width:100%;
+  height:$navSize;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  a {
+    color:#000;
+    text-decoration: none;
+  }
+}
+main {
+  margin-top:$navSize;
+}

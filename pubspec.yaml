@@ -1,0 +1,7 @@
+name: carbon-example
+version: 0.0.1
+description: An Example of using the dart carbon framework
+author: Daniel Caaz <DCaazy@gmail.com>
+dependencies:
+  carbon:
+    git: git://github.com/Caaz/carbon.git
